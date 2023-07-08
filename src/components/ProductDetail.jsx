@@ -2,7 +2,6 @@ import { useCartContext } from "../provider/CartProvider";
 
 
 const ProductDetail = ({ product }) => {
-    console.log("🚀 ~ file: ProductDetail.jsx:5 ~ ProductDetail ~ product:", product)
     const { dispatch } = useCartContext();
     return(
         <>

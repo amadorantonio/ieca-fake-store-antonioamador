@@ -28,6 +28,7 @@ const Home = () => {
 
       setProducts(productsCart);
       setProductsFiltered(productsCart)
+      setInputValue("")
       setLoading(false)
     };
 
